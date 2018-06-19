@@ -1,0 +1,25 @@
+{
+    "test": [
+        {
+            "name": "test",
+            "bool": true,
+            "intt": 123,
+            "arr": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "testa",
+            "bool": true,
+            "int": 123,
+            "arr": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "anothermissing"
+        }
+    ]
+}

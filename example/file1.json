@@ -1,0 +1,27 @@
+{
+    "test": [
+        {
+            "name": "test",
+            "bool": true,
+            "int": 123,
+            "arr": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "testa",
+            "bool": true,
+            "int": 123,
+            "arr": [
+                1
+            ]
+        },
+        {
+            "name": "cannotbefound"
+        },
+        {
+            "name": "cannotbefound"
+        }
+    ]
+}
