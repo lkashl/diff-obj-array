@@ -1,0 +1,13 @@
+[
+    {
+        "name": "testa",
+        "bool": true,
+        "int": 123,
+        "arr": [
+            1,
+            2
+        ],
+        "stringInt": 123,
+        "secondKey": "a"
+    }
+]

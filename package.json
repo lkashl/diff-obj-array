@@ -1,15 +1,35 @@
 {
-  "name": "differ",
+  "name": "diff-obj-array",
   "version": "1.0.0",
-  "description": "",
-  "main": "differ.js",
+  "description": "A tool to diff JSON object structures using defined key criteria and extensible treatment modules",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "author": "Kashrian Singh",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "colors": "^1.3.0",
     "deep-object-diff": "^1.1.0"
-  }
+  },
+  "bin":{
+    "diff-obj-array": "node app.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "jest": "^23.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkashl/diff-obj-array.git"
+  },
+  "homepage": "https://github.com/lkashl/diff-obj-array/blob/master/readme.md",
+  "keywords": [
+    "diff",
+    "object",
+    "array",
+    "json"
+  ]
 }

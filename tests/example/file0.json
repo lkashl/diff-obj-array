@@ -1,0 +1,28 @@
+{
+    "housing":{
+        "object": [
+            {
+                "name": "test",
+                "bool": true,
+                "int": 123,
+                "arr": [
+                    1,
+                    2
+                ],
+                "stringInt": 123
+            },
+            {
+                "name": "testa",
+                "bool": true,
+                "int": 123,
+                "arr": [
+                    1
+                ],
+                "stringInt": 123
+            },
+            {
+                "name": "missingFile1"
+            }
+        ]
+    }
+}

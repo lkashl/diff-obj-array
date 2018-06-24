@@ -1,0 +1,40 @@
+{
+    "housing":{
+        "object": [
+            {
+                "name": "testa",
+                "bool": true,
+                "int": 123,
+                "arr": [
+                    1,
+                    2
+                ],
+                "stringInt": "123",
+                "secondKey": "a"
+            },
+            {
+                "name": "test",
+                "bool": true,
+                "intt": 123,
+                "arr": [
+                    1,
+                    2
+                ],
+                "stringInt": "123",
+                "secondKey": "a"
+            },
+            {
+                "name": "missingFile2",
+                "secondKey": "a"
+            },
+            {
+                "name": "isduplicate",
+                "secondKey": "a"
+            },
+            {
+                "undefinedFile2": false,
+                "secondKey": "a"
+            }
+        ]
+    }
+}
