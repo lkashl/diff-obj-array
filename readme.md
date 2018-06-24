@@ -71,11 +71,6 @@ The diff tool can be started from CLI by passing in the same args
 
 ``` bash
 npm i diff-obj-array -g
-```
-
-#### Init HTTP Server
-
-``` bash
 diff-obj-array ./tests/example/file1.json ./tests/example/file2.json housing.object name.secondKey example
 ```
 

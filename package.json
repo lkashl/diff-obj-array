@@ -1,6 +1,6 @@
 {
   "name": "diff-obj-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to diff JSON object structures using defined key criteria and extensible treatment modules",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "deep-object-diff": "^1.1.0"
   },
   "bin":{
-    "diff-obj-array": "node app.js"
+    "diff-obj-array": "./app.js"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
